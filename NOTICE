@@ -1,0 +1,19 @@
+MacSCP 0.1.0
+Copyright (C) 2026 MacSCP contributors.
+Distributed under the GNU General Public License, version 3 (see LICENSE).
+
+This native macOS implementation is based on the architecture and protocol
+behavior studied in the supplied WinSCP source tree, revision:
+e13157118a064261cb3b707cdc601d4d325359cf
+
+Reference files: source/core/SessionData.h, FileSystems.h, Queue.h,
+ScpFileSystem.h/.cpp, and SftpFileSystem.cpp.
+WinSCP is Copyright (C) Martin Prikryl and its contributors, licensed under
+GPL-3.0. The original Windows VCL UI, binaries, PuTTY fork, branding and
+WinSCP icon set are not included. MacSCP is not an official WinSCP release.
+
+SSH is provided by the OpenSSH executables installed with macOS. No OpenSSH
+binary is redistributed in this application. Third-party Swift packages: none.
+
+The packaging script was adapted from the locally supplied
+macos-spm-app-packaging skill template.
